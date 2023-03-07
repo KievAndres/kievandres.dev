@@ -1,0 +1,24 @@
+* {
+  font-family: 'Lexend Deco', sans-serif;
+  color: #2e475d;
+}
+.foto-perfil {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  border-radius: 50%;
+}
+
+.contenedor-presentacion {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contenedor-presentacion-texto {
+  width: 100%;
+  text-align: center;
+}
+.sub-titulo {
+  font-weight: 400;
+}
