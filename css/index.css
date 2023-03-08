@@ -2,10 +2,13 @@
   font-family: 'Lexend Deco', sans-serif;
   color: #2e475d;
 }
+body {
+  margin: 2em;
+}
 .foto-perfil {
   width: 100%;
+  width: clamp(30px, 60vw, 500px);
   height: auto;
-  max-width: 500px;
   border-radius: 50%;
 }
 
