@@ -7,7 +7,7 @@ body {
 }
 .foto-perfil {
   width: 100%;
-  width: clamp(30px, 60vw, 500px);
+  width: clamp(30px, 60vw, 350px);
   height: auto;
   border-radius: 50%;
 }
@@ -24,4 +24,19 @@ body {
 }
 .sub-titulo {
   font-weight: 400;
+}
+
+.redes-sociales {
+  display: flex;
+  gap: 0.2em;
+}
+.social-media-button {
+  cursor: pointer;
+  background: #cacaca;
+  border: 0;
+  padding: .2em .5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
 }
