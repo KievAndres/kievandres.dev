@@ -1,9 +1,10 @@
 * {
   font-family: 'Lexend Deco', sans-serif;
-  color: #2e475d;
 }
 body {
   margin: 2em;
+  background-image: url(../assets/imagenes/main-background.webp);
+  background-size: contain;
 }
 .foto-perfil {
   width: 100%;
@@ -16,11 +17,16 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  max-width: 80vw;
+  margin: auto;
 }
 
 .contenedor-presentacion-texto {
+  background: #fff;
+  color: #2e475d;
   width: 100%;
   text-align: center;
+  border-radius: 12px;
 }
 .sub-titulo {
   font-weight: 400;
@@ -29,14 +35,39 @@ body {
 .redes-sociales {
   display: flex;
   gap: 0.2em;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .social-media-button {
   cursor: pointer;
-  background: #cacaca;
+  color: #fff;
   border: 0;
-  padding: .2em .5em;
+  padding: .4em .7em;
   display: flex;
   align-items: center;
   justify-content: center;
   user-select: none;
+  border-radius: 5px;
+}
+.social-media-button-text {
+  margin-left: .3em;
+}
+
+#github {
+  background-color: #24292f;
+}
+#facebook {
+  background-color: #1773ea;
+  color: #f7f7f7;
+}
+#twitter {
+  background-color: #5ca4d6;
+}
+#linkedin {
+  background-color: #0270ad;
+}
+#instagram {
+  background-color: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  color: #f5f7f7;
 }
