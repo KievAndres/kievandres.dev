@@ -29,6 +29,11 @@ body {
   border-radius: 12px;
   padding: 1.5em;
 }
+@media (max-width: 800px) {
+  .contenedor-presentacion-texto {
+    padding: .6em;
+  }
+}
 .sub-titulo {
   font-weight: 400;
 }
