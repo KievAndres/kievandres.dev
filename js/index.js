@@ -8,7 +8,7 @@ const socialMediaLinks = {
 const socialMediaButtons = document.getElementsByClassName('social-media-button');
 Array.from(socialMediaButtons).forEach(button => {
   button.addEventListener('click', (event) => {
-    const link = socialMediaLinks[event.target.id];
+    const link = socialMediaLinks[event.currentTarget.id];
     window.open(link, '_blank')
   })
 })

@@ -22,11 +22,12 @@ body {
 }
 
 .contenedor-presentacion-texto {
-  background: #fff;
-  color: #2e475d;
+  background: #233a4e;
+  color: #e2e1e1;
   width: 100%;
   text-align: center;
   border-radius: 12px;
+  padding: 1.5em;
 }
 .sub-titulo {
   font-weight: 400;
